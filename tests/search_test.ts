@@ -2,12 +2,6 @@
 Feature('Search')
 
 Scenario('Поиск', ({ I, searchPage }) => {
-  
- // I.amOnPage('/')
- // I.click('Поиск')
- // I.fillField('input[type=search]', 'Бакман')
-//  I.pressKey('Enter')
-
    searchPage.visit()
    searchPage.clickSearch()
    searchPage.fillSearch('Бакман')
